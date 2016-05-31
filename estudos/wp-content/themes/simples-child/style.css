@@ -1,0 +1,21 @@
+/*
+Theme Name: Simples Child
+Theme URI: http://adamo.local/wordpress
+Description: Este é um tema filho de Simples Blog
+Author: Adamo Avelino
+Template: blogSimples
+Version: 1.0
+*/
+@import url("../blogSimples/style.css");
+body.single h1
+{
+	background:#06F;
+	background-image: linear-gradient(top, #06f, #0056CA);
+	background-image: -moz-linear-gradient(top, #06f, #0056CA);
+	background-image: -webkit-linear-gradient(top, #06f, #0056CA);
+	padding: 20px;
+	text-align:center;
+	color:#FFF;
+	text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}

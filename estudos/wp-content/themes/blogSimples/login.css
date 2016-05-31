@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.login
+{
+	background-image: url(img/escritorio.jpg);
+}
+
+div#login 
+{
+	background: #333;
+	padding-bottom: 30px
+}
+#loginform
+{
+	background-color:#666;
+}
+#loginform p label, p#nav a, #backtoblog a
+{
+	color:#fff !important;
+}  
+div#login h1 a
+{
+	background-image: url(img/logo.png)
+}
+
+#login_error
+{
+	border-left-color: #900 !important;
+} 
+p.message, #login_error
+{
+	background:#E1E1E1 !important;
+}
+
+#backtoblog
+{
+	margin-top: 30px ;
+}
+#backtoblog a:hover, p#nav a:hover, #wp-submit:hover
+{
+	background-color:#900;
+	border: 1px solid #440101;
+}
+p#nav a, #backtoblog a
+{
+	padding: 10px;
+	box-shadow: 0px 1px 1px  rgba(250, 250, 250, 0.5) inset;
+}
+#wp-submit, p#nav a, #backtoblog a
+{
+	background: #409fff;
+	border: 1px solid #5681ac;
+} 
+
+
+@media all and (max-width: 1024px)
+{
+	.login
+	{
+		background-image: url(img/escritorio1024.jpg);
+	}
+}

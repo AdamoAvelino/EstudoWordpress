@@ -1,0 +1,31 @@
+/*
+	Theme Name: Small Notes
+	Theme URI: http://adamo.local/wordpress/estudos/
+	Description: Este é o Small Notes, tema filho de Notes Blog
+	Author: Thord Daniel Hedengren
+	Author URI: http://tdh.me
+	Template: notes-blog-core-theme
+	Version: 1.0.2
+	
+	Você precisa ter tanto o Small Note como Notes Blog no seu wp-content/themes/
+pasta para este tema funcionar.
+*/
+@import url("../notes-blog-core-theme/style.css");
+div#content { font-family: "Lucida Console";}
+ul.sidebar { color: #444; }
+
+.category-continentes
+{
+	border-right: 2px solid #093;
+}
+
+.category-continentes .postmeta span a, .category-continentes a
+{
+	color: #093;
+}
+.tag-meu-favorito
+{
+background: url(http://adamo.local/wordpress/estudos/wp-content/uploads/2014/12/the_favorites_icon.png) no-repeat top right
+}
+
+body.single h1{font-size: 48px; color: red}
